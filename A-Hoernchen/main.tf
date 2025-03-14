@@ -2,6 +2,10 @@
 resource "azurerm_resource_group" "Hoernchen_RG" {
   name     = "Hoernchen-resources"
   location = "West Europe"
+
+  tags = {
+    owner = "franz.aigner@redbull.com"
+  }
 }
 
 # Create a virtual network within the resource group
