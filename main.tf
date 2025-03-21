@@ -61,7 +61,7 @@ resource "azurerm_linux_virtual_machine" "Hoernchen-VM" {
   network_interface_ids = [
     azurerm_network_interface.A-Hoernchen-VM-nic.id,
   ]
-  size               = "Standard_B1s"
+  size               = "Standard_B2s"
   admin_username     = "A-Hoernchen"
   admin_password     = "!123abcDEF"  # For demonstration purposes only. Use secure methods for production.
   disable_password_authentication = "false"
