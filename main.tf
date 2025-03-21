@@ -1,3 +1,6 @@
+
+### Beginning of A-Hoernchen Stuff
+
 # Create a resource group
 resource "azurerm_resource_group" "Hoernchen_RG" {
   name     = "Hoernchen-resources"
@@ -75,3 +78,6 @@ resource "azurerm_linux_virtual_machine" "Hoernchen-VM" {
     version   = "latest"
   }
 }
+
+### End of A-Hoernchen Stuff
+
