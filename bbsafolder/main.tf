@@ -36,7 +36,7 @@ resource "azurerm_network_interface" "bmy-nic" {
 }
 
 # Define the virtual machine
-resource "azurerm_linux_virtual_machine" "vm" {
+resource "azurerm_linux_virtual_machine" "bbsavm" {
   name                = "bbsa-vm"
   location            = azurerm_resource_group.examplebbsa.location
   resource_group_name = azurerm_resource_group.examplebbsa.name
